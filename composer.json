@@ -1,0 +1,6 @@
+{
+    "name":"MrStrangerYang/androidServer",
+    "require":{
+        "robmorgan/phinx":"*"
+    }
+}
