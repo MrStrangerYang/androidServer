@@ -7,7 +7,10 @@ class IndexController extends Controller
     {
         $this->display();
     }
-
+    //通过URL访问  http://localhost:8888/index.php/Home/Index/bowertest
+    public function bowertest(){
+        $this->display();
+    }
     //通过URL访问  http://localhost:8888/index.php/Home/Index/login
 
     public function  login($username,$password)
